@@ -1,83 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add a relevant page title</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eklavya Prasad Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
+
   <body>
     <main>
       <!-- ***********************  ABOUT / PROFILE  *********************** -->
       <header>
-        <h1>Eklavya Prasad</h1>
-        <h2>Full Stack Developer</h2>
+        <div class="content-wrap">
+          <h1>Eklavya Prasad</h1>
+          <h2>Full Stack Flutter + Front-end Developer</h2>
 
-        <p>Add your profile copy here. Add more paragraphs or links as needed. Here is some dummy text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum, diam ut gravida efficitur, risus neque scelerisque erat, ut rhoncus erat odio ac justo. Nunc scelerisque vestibulum augue, sit amet hendrerit ante.</p>
-        <p>Add another paragraph if needed.</p>
+          <p>
+            I'm a full stack developer focused on constantly learning and
+            improving in all apsects of my life. Initally introduced by
+            automation software in highschool, I've learned many types of
+            development languages and tools, and continue to do so in work,
+            school, and hobby every single day.
+          </p>
+          <p>Add another paragraph if needed.</p>
+        </div>
       </header>
 
       <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
-      <section>
-        <h2>Featured Projects</h2>
-        <p>View selected projects below. More information can be found at <a href="http://christinatruong.com">christinatruong.com</a>.</p>
+      <section class="projects">
+        <div class="content-wrap">
+          <h2>Featured Projects</h2>
+          <p>
+            View selected projects below. More information can be found at
+            <a href="http://christinatruong.com">christinatruong.com</a>.
+          </p>
 
-        <!-- Copy the whole <section> block to add more projects. -->
-        <section>
-          <h3>Project Name</h3>
-          <img src="project-thumbnail.png" alt="description of image">
-          <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
-          <a href="#" target="_blank">View project / case study</a>
-        </section>
-        <!-- End of Project block. -->
+          <!-- Copy the whole <section> block to add more projects. -->
+          <section>
+            <h3>Flash Chat</h3>
+            <img src="images/flashchat.png" alt="Flash chat app screenshot" />
+            <p>
+              "Developed a real-time messaging app using Flutter for the UI and
+              Firebase for the cloud backend. Designed and implemented group
+              chat functionality, allowing users to engage in conversations with
+              profanity filtering in place. Leveraged Flutter's UI toolkit to
+              create a visually appealing user interface, while utilizing
+              Firebase's real-time database to ensure instant synchronization of
+              chat messages. Demonstrated strong problem-solving skills by
+              implementing automated profanity filtering to maintain a positive
+              user experience. Collaborated with a team to conduct testing,
+              resulting in a robust and efficient application. This project
+              showcased proficiency in Flutter, Firebase, and delivering
+              user-centric solutions."
+            </p>
+            <a class="btn" href="#" target="_blank">View project</a>
+          </section>
+          <section>
+            <h3>Live Emotion Detection</h3>
+            <img
+              src="images/liveemotiondetection.png"
+              alt="description of image"
+            />
+            <p>
+              Live Emotion Detection app is a mobile application that is
+              developed using the dart and flutter frameworks, and it can be
+              deployed on Android and iOS, as well as a number of platforms
+              including web, Windows, and Linux. The motive of this mobile
+              application is to identify emotion of an individual in real time.
+              As the data needed for labeling the emotions was integrated into
+              the app itself, the app doesn’t need internet for the processing.
+              The app also holds a user-friendly UI for easy navigation and
+              hence improving the user experience. A TFLite model has been built
+              using Google Teachable Machine and it runs real-time filtering on
+              the camera live feed or the image that has been selected by the
+              user and tags them with the most appropriate emotion label based
+              on the data
+            </p>
+            <a class="btn" href="#" target="_blank">View project</a>
+          </section>
+        </div>
       </section>
+      <!-- End of Project block. -->
 
       <!-- ***********************  WORK EXPERIENCE  *********************** -->
-      <section>
-        <h2>Work Experience</h2>
-        <p>Optional paragraph for work experience summary. Not a part of the job details. Delete if not being used.</p>
+      <section class="work-experience">
+        <div class="content-wrap">
+          <h2>Work Experience</h2>
+          <p>
+            Optional paragraph for work experience summary. Not a part of the
+            job details. Delete if not being used.
+          </p>
 
-        <!-- Copy this whole <section> block to add more jobs. -->
-        <section>
-          <h3>Job title</h3>
-          <p>Company Name</p>
-          <p>Date at job</p>
-          <p>Job summary goes here. Add as many paragraphs as you need.</p>
-          <p>Optional list:</p>
-          <ul>
-            <li>Delete this list if you don't need it.</li>
-            <li>Created...</li>
-            <li>Lead...</li>
-            <li>Responsible for...</li>
-          </ul>
-        </section>
-        <!-- End of Job block. -->
+          <!-- Copy this whole <section> block to add more jobs. -->
+          <section>
+            <h3>Flutter Developer</h3>
+            <p>SpotBuy</p>
+            <p>April 2022</p>
+            <p>
+              As a dedicated and skilled developer, I designed and developed the
+              back-end and front-end components for the User Credentials page,
+              enabling seamless updating and management of user data. I
+              implemented an OTP-based user authentication system, significantly
+              reducing unauthorized access instances. By implementing the
+              Sidebar Navigation Menu and the Chat Screen, I enhanced the
+              application's design, making substantial improvements to the User
+              Interface and enhancing system usability. My expertise in
+              debugging and issue resolution allowed me to identify and fix
+              existing system problems, resulting in an improved user experience
+              and increased satisfaction.
+            </p>
+            <p>Optional list:</p>
+            <ul>
+              <li>
+                Designed and developed the back-end and front-end for the User
+                Credentials page to update and manage the user data.
+              </li>
+              <li>
+                Implemented OTP-based user authentication system, reducing
+                instances of unauthorized access
+              </li>
+              <li>
+                Enriched the application design by implementing the Sidebar
+                Navigation Menu, and the Chat Screen, and made some major
+                changes to the User Interface, which improved the system’s
+                usability
+              </li>
+              <li>
+                Debugged and resolved existing issues with the system, improving
+                overall user experience and satisfaction.
+              </li>
+            </ul>
+          </section>
+          <!-- End of Job block. -->
+        </div>
       </section>
 
       <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
-      <section>
-        <h2>Education</h2>
+      <section class="education">
+        <div class="content-wrap">
+          <h2>Education</h2>
 
-        <!-- Copy this whole <section> block to add more schools. -->
-        <section>
-          <h3>School name - City</h3>
-          <p>Designation received or program name, year attended</p>
-          <p>Summary or accomplishments.</p>
-        </section>
-        <!-- End of School block. -->
+          <!-- Copy this whole <section> block to add more schools. -->
+          <section>
+            <h3>Shri Ram Institute of Technology - Jabalpur</h3>
+            <p>Bachelors in Computer Science Engineering, 2019-2023</p>
+            <p>CGPA of 8.30</p>
+          </section>
+          <!-- End of School block. -->
+        </div>
       </section>
 
       <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
       <footer>
-        <h2>Let's Keep in Touch!</h2>
+        <div class="content-wrap">
+          <h2>Let's Keep in Touch!</h2>
 
-        <!-- Social media and contact links. Add or remove any networks. -->
-        <ul>
-          <li><a href="mailto:email@example.com">email@example.com</a></li>
-          <li><a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a></li>
-          <li><a href="#" target="_blank">Twitter</a></li>
-          <li><a href="#" target="_blank">LinkedIn</a></li>
-          <li><a href="#" target="_blank">Facebook</a></li>
-        </ul>
+          <!-- Social media and contact links. Add or remove any networks. -->
+          <ul>
+            <li>
+              <a href="mailto:eklavyaprasad1@gmail.com"
+                >eklavyaprasad1@gmail.com</a
+              >
+            </li>
+            <li>
+              <a href="http://yourwebsite.com" target="_blank"
+                >yourwebsite.com</a
+              >
+            </li>
+            <li><a href="#" target="_blank">Twitter</a></li>
+            <li><a href="#" target="_blank">LinkedIn</a></li>
+            <li><a href="#" target="_blank">Facebook</a></li>
+          </ul>
+        </div>
       </footer>
     </main>
   </body>
