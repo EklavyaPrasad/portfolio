@@ -78,7 +78,6 @@ h3{
 header{
     background: #2f3061;
     color: #f7fff7;
-    text-align: center;
 }
 
 /* header h1{
@@ -112,19 +111,13 @@ header{
 .project-item{
     overflow: hidden;
 }
-.project-item img{
-    float: left;
-    margin-right: 20px;
-    width: 48%;
-}
-
-.project-content{
-    float:right;
-    width: 48%;
-}
 
 .project-item h3{
     margin-top: 0;
+}
+
+.projects ~ img{
+    margin-bottom: 10px;
 }
 
 /* Work Experience
@@ -133,10 +126,7 @@ header{
     background: #a1c6d7
 }
 
-.job-item{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-}
+
 /* Education
 -------------------------*/
 .education{
@@ -155,14 +145,11 @@ header{
 footer{
     background: #343434;
     color: #f7fff7;  
-    text-align: center;
 }
 
 .contact-list{
     list-style-type: none;
     padding: 0;
-    display: flex;
-    justify-content: center;
 }
 
 .contact-list a{
@@ -174,3 +161,48 @@ footer{
     text-align: center;
 } */
 
+/* Responsive
+-------------------------*/
+@media screen and (min-width: 750px) {
+    header, footer{
+        text-align: center;
+    }
+    .project-item img{
+        float: left;
+        margin-right: 20px;
+        width: 48%;
+    }
+    
+    .project-content{
+        float:right;
+        width: 48%;
+    }
+    .job-item{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .contact-list{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 749px) {
+    h1{
+        font-size: 60px;
+        line-height: 0.9;
+        margin-bottom: 20px;
+    }
+    header h2{
+        font-size: 30px;
+    }
+
+    h2{
+        line-height: 1;
+    }
+
+    .contact-list a{
+        padding: 5px;
+    }
+}
